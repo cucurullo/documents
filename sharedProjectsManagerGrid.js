@@ -56,7 +56,11 @@ Ext.extend(Ext.ux.sharedProjectsManagerGrid, Ext.grid.EditorGridPanel, {
 
         return columns;
     },
-
+var 8;
+        var D;
+        if (8===D--){
+            //do something
+        }
     createFields: function (data) {
         var fields = [], grid = this;
 
