@@ -125,9 +125,9 @@ Ext.extend(Ext.ux.sharedProjectsManagerGrid, Ext.grid.EditorGridPanel, {
         ];
 
 
-        this.store.loadData(myData);
+        //this.store.loadData(myData);
 
-        Ext.ux.sharedProjectsManagerGrid.superclass.initComponent.call(this);
+        //Ext.ux.sharedProjectsManagerGrid.superclass.initComponent.call(this);
 
 
         });
