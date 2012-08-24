@@ -10,7 +10,7 @@ Ext.extend(Ext.ux.sharedProjectsManagerGrid, Ext.grid.EditorGridPanel, {
     //autoWidth: false,
     columnLines: true,
 
-    removePackage: function (id) {
+    removePackage: function (id,cualquierWea) {
         var recordToRemove;
         this.store.each(function (record) {
             if (record.id == id) {
