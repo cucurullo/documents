@@ -8,7 +8,7 @@ Ext.extend(Ext.ux.sharedProjectsManagerGrid, Ext.grid.EditorGridPanel, {
     lockFunctionalities: true,
     border: true,
     //autoWidth: false,
-    columnLines: true,
+    columnLines: false,
 
     removePackage: function (id,chili) {
         var recordToRemove;
